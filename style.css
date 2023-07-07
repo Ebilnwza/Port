@@ -33,17 +33,13 @@ justify-content: center;
     transition: .3s ease all;
     transform: translateY(5px);
 }
-#-icon-link-steam:hover{
+#icon-link-steam:hover{
     transition: .3s ease all;
     transform: translateY(-5px);
 }
 #img-profile1:hover{
     transition: .5s ease all;
     transform: translatex(-215px);
-}
-#img-profile2:hover{
-    transition: .5s ease all;
-    transform: translatex(215px);
 }
 #icon-link-facebook,#icon-link-ig,#icon-link-discord,#icon-link-twich,#icon-link-steam{
     
@@ -55,7 +51,7 @@ justify-content: center;
 #img-profile1{
     position: relative;
     border-radius: 12px;
-    border: 5px solid slateblue;
+    border: 5px solid rgb(0, 0, 0);
 }
 #img-profile2{
     position: absolute;
