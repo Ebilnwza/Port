@@ -3,18 +3,20 @@ body{
     border: 10px solid;
 }
 .con-profile{
+background-color: #B5C99A;
 display: flex;
 justify-content: center;
 }
 .con-skill
 {
+    background-color: #FFF9C9;
     display: flex;
     justify-content: center;
 }
 .con-link{
+    background-color: #862B0D;
     display: flex;
     justify-content: center;
-    margin: 0 auto;
 }
 
 #icon-link-facebook:hover{
@@ -62,12 +64,15 @@ li{
     font-size: larger;
     font-weight: bold;
 }   
-div{
-    margin: 10px;
-}
+
 h1{
     text-align: center;
 }
 footer{
+    background-color: #FFC95F;
     text-align: center;
+}
+div{
+    margin: 10px;
+    border-radius: 12px;
 }
