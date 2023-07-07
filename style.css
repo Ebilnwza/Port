@@ -38,8 +38,8 @@ justify-content: center;
     transform: translateY(-5px);
 }
 #img-profile1:hover{
-    transition: .5s ease all;
-    transform: translatex(-215px);
+    transition: 1s ease all;
+    opacity: 0;
 }
 #icon-link-facebook,#icon-link-ig,#icon-link-discord,#icon-link-twich,#icon-link-steam{
     
