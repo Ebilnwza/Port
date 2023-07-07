@@ -1,42 +1,47 @@
 body{
     background-color: bisque;
     border: 10px solid;
+    margin: 0px;
+    padding: 10px;
 }
 .con-profile{
+border: 10px solid;
 background-color: #B5C99A;
 display: flex;
 justify-content: center;
 }
 .con-skill
 {
+    border: 10px solid;
     background-color: #FFF9C9;
     display: flex;
     justify-content: center;
 }
 .con-link{
+    border: 10px solid;
     background-color: #862B0D;
     display: flex;
     justify-content: center;
 }
 
 #icon-link-facebook:hover{
-    transition: .3s ease all;
+    transition: .1s ease all;
     transform: translateY(-5px);
 }
 #icon-link-ig:hover{
-    transition: .3s ease all;
+    transition: .1s ease all;
     transform: translateY(5px);
 }
 #icon-link-discord:hover{
-    transition: .3s ease all;
+    transition: .1s ease all;
     transform: translateY(-5px);
 }
 #icon-link-twich:hover{
-    transition: .3s ease all;
+    transition: .1s ease all;
     transform: translateY(5px);
 }
 #icon-link-steam:hover{
-    transition: .3s ease all;
+    transition: .1s ease all;
     transform: translateY(-5px);
 }
 #img-profile1:hover{
