@@ -1,0 +1,77 @@
+body{
+    background-color: bisque;
+    border: 10px solid;
+}
+.con-profile{
+display: flex;
+justify-content: center;
+}
+.con-skill
+{
+    display: flex;
+    justify-content: center;
+}
+.con-link{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#icon-link-facebook:hover{
+    transition: .3s ease all;
+    transform: translateY(-5px);
+}
+#icon-link-ig:hover{
+    transition: .3s ease all;
+    transform: translateY(5px);
+}
+#icon-link-discord:hover{
+    transition: .3s ease all;
+    transform: translateY(-5px);
+}
+#icon-link-twich:hover{
+    transition: .3s ease all;
+    transform: translateY(5px);
+}
+#-icon-link-steam:hover{
+    transition: .3s ease all;
+    transform: translateY(-5px);
+}
+#img-profile1:hover{
+    transition: .5s ease all;
+    transform: translatex(-215px);
+}
+#img-profile2:hover{
+    transition: .5s ease all;
+    transform: translatex(215px);
+}
+#icon-link-facebook,#icon-link-ig,#icon-link-discord,#icon-link-twich,#icon-link-steam{
+    
+    border: 5px solid black;
+    border-radius: 10%;
+    margin: 10px;
+    width:100px;
+}
+#img-profile1{
+    position: relative;
+    border-radius: 12px;
+    border: 5px solid slateblue;
+}
+#img-profile2{
+    position: absolute;
+    border-radius: 12px;
+    border: 5px solid slateblue;
+}
+li{
+    font-size: larger;
+    font-weight: bold;
+}   
+div{
+    margin: 10px;
+}
+h1{
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
