@@ -9,6 +9,7 @@ border: 10px solid;
 background-color: #B5C99A;
 display: flex;
 justify-content: center;
+flex-wrap: wrap;
 }
 .con-skill
 {
@@ -16,12 +17,14 @@ justify-content: center;
     background-color: #FFF9C9;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .con-link{
     border: 10px solid;
     background-color: #862B0D;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 #icon-link-facebook:hover{
