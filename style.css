@@ -4,12 +4,29 @@ body{
     margin: 0px;
     padding: 10px;
 }
+li{
+    font-size: larger;
+    font-weight: bold;
+}   
+
+h1{
+    text-align: center;
+}
+footer{
+    background-color: #FFC95F;
+    text-align: center;
+}
+div{
+    margin: 10px;
+    border-radius: 12px;
+}
 .con-profile{
 border: 10px solid;
 background-color: #B5C99A;
 display: flex;
 justify-content: center;
 flex-wrap: wrap;
+padding: 10px;
 }
 .con-skill
 {
@@ -26,7 +43,18 @@ flex-wrap: wrap;
     justify-content: center;
     flex-wrap: wrap;
 }
-
+.con-profile:hover{
+    transition: .5s ease all;
+    background-color: #869178;
+}
+.con-link:hover{
+    transition: .5s ease all;
+    background-color: #b55536; 
+}
+.con-skill:hover{
+    transition: .5s ease all;
+    background-color: #fdee7c; 
+}
 #icon-link-facebook:hover{
     transition: .1s ease all;
     transform: translateY(-5px);
@@ -68,19 +96,4 @@ flex-wrap: wrap;
     border-radius: 12px;
     border: 5px solid slateblue;
 }
-li{
-    font-size: larger;
-    font-weight: bold;
-}   
 
-h1{
-    text-align: center;
-}
-footer{
-    background-color: #FFC95F;
-    text-align: center;
-}
-div{
-    margin: 10px;
-    border-radius: 12px;
-}
