@@ -25,7 +25,6 @@ border: 10px solid;
 background-color: #B5C99A;
 display: flex;
 justify-content: center;
-flex-wrap: wrap;
 padding: 10px;
 }
 .con-skill
